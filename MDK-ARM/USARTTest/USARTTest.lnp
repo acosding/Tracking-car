@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"usarttest\startup_stm32f103xb.o"
+"usarttest\oled.o"
+"usarttest\main.o"
+"usarttest\stm32f1xx_it.o"
+"usarttest\stm32f1xx_hal_msp.o"
+"usarttest\stm32f1xx_hal_gpio_ex.o"
+"usarttest\stm32f1xx_hal_tim.o"
+"usarttest\stm32f1xx_hal_tim_ex.o"
+"usarttest\stm32f1xx_hal.o"
+"usarttest\stm32f1xx_hal_rcc.o"
+"usarttest\stm32f1xx_hal_rcc_ex.o"
+"usarttest\stm32f1xx_hal_gpio.o"
+"usarttest\stm32f1xx_hal_dma.o"
+"usarttest\stm32f1xx_hal_cortex.o"
+"usarttest\stm32f1xx_hal_pwr.o"
+"usarttest\stm32f1xx_hal_flash.o"
+"usarttest\stm32f1xx_hal_flash_ex.o"
+"usarttest\stm32f1xx_hal_exti.o"
+"usarttest\stm32f1xx_hal_uart.o"
+"usarttest\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "USARTTest\USARTTest.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "USARTTest.map" -o USARTTest\USARTTest.axf
