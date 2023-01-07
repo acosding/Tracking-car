@@ -1,0 +1,18 @@
+DATASET:
+  TRAIN: "C:/Users/4869/Desktop/Car_project/data/train.txt"
+  VAL: "C:/Users/4869/Desktop/Car_project/data/val.txt"
+  NAMES: "C:/Users/4869/Desktop/Car_project/data/category.names"
+MODEL:
+  NC: 4
+  INPUT_WIDTH: 150
+  INPUT_HEIGHT: 150
+TRAIN:
+  LR: 0.001
+  THRESH: 0.25
+  WARMUP: true
+  BATCH_SIZE: 25
+  END_EPOCH: 200
+  MILESTIONES:
+    - 100
+    - 200
+    - 250

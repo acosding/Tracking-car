@@ -1,0 +1,5 @@
+input:128*128
+END_EPOCH:200
+WEIGHT:200epoch
+删去Stop
+
