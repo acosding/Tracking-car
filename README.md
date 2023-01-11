@@ -12,13 +12,14 @@
 
 # 开发环境
 
--操作系统：Windows 10
--编程语言：C、Python
--开发工具
-  -STM32CubeMx
-  -keilμvision5
-  -pycharm
--环境依赖：-python 3.9
+- 操作系统：Windows 10
+- 编程语言：C、Python
+- 开发工具
+  - STM32CubeMx
+  - keilμvision5
+  - pycharm
+- 环境依赖
+  - python 3.9
 
 # 使用说明
 
@@ -40,6 +41,7 @@
 
 # 目录结构
 
+```
 ├── Readme.md // 说明文件
 ├── vision // 树莓派的python程序和模型
 ├── Core //stm32的主要代码文件
@@ -47,6 +49,7 @@
 ├── MDK-ARM //keil工程文件
 ├── USARTTest.ioc // 
 ├── .mxproject //
+```
 
 此目录可以直接放在一个文件夹内作为keil和stm32CubeMx的工程文件打开
 
